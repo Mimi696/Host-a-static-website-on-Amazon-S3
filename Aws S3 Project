@@ -1,0 +1,15 @@
+At the top left of the AWS Management Console search box, type S3 and hit enter, then select S3 under services.
+On the General-purpose buckets tab, click the bucket name that starts with website- bucket (It contains the code required for the lab)
+Copy the bucket name at the top of the page
+On the Objects tab, review the 5 objects in the bucket and select the text.html. A dialogue box under Action opens, then you select Rename object to error.html. This file contains the code for the error page, which opens whenever something goes wrong. Click save changes.
+In the success Alert, review the message and click permission tab	In the Block Public Access (Bucket Settings) make sure that Block all public access is turned Off. This is necessary for Static web hosting via S3 bucket.
+This S3 bucket policy allows public read-only to access to anyone for all objects within this bucket.	Review the Encryption setting
+On a Static website, content is unchanged. 
+For Static website hosting choose Enable
+For Hosting type, choose Host static website
+For index Document, type index.html
+For Error document, type error.html
+Review to make sure that Hosting type is set to Bucket Hosting. Under bucket website endpoint, click the copy icon to copy the endpoint.
+Paste the copied bucket website endpoint, and press enter.
+
+  

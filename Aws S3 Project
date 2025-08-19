@@ -1,4 +1,4 @@
-At the top left of the AWS Management Console search box, type S3 and hit enter, then select S3 under services.
+At the top left of the AWS Management Console search box, type S3 and press enter, then select S3 under services.
 On the General-purpose buckets tab, click the bucket name that starts with website- bucket (It contains the code required for the lab)
 Copy the bucket name at the top of the page
 On the Objects tab, review the 5 objects in the bucket and select the text.html. A dialogue box under Action opens, then you select Rename object to error.html. This file contains the code for the error page, which opens whenever something goes wrong. Click save changes.
